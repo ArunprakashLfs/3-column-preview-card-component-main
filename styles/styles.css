@@ -19,39 +19,42 @@ body{
 }
 .card{
     color: hsl(0, 0%, 95%);
+    width: 52rem;
+    height: auto;
+    border-radius: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
    
 }
 .sedan{
     background-color: hsl(31, 77%, 52%);
-    width: 17rem;
-    min-height: 26rem;
+    border-radius: 15px 0px 0px 15px;
+
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;     
+    justify-content: space-evenly;  
+    gap:2rem;   
 }
 .suv{
     background-color: hsl(184, 100%, 22%);
-    width: 17rem;
-    min-height: 26rem;
+    
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 2rem;
      
 }
 .luxuary{
     background-color: hsl(179, 100%, 13%);
-    min-height: 26rem;
-    width: 17rem;
     padding: 1.5rem;
+    border-radius: 0px 15px 15px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 2rem;
     
 }
 img{
@@ -62,17 +65,18 @@ h2{
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', cursive;
     font-size: xx-large;
-
 }
 p{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     margin-bottom: 1.5rem;
-
 }
 button{
     padding: 1rem;
+    margin: 0px 10px;
+    border: none;
+    text-transform: capitalize;
     border-radius: 2rem;
 }
 .sedan-button{
